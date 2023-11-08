@@ -1,0 +1,227 @@
+
+#vdohome{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    visibility: initial;
+    filter: brightness(150%);
+    z-index: 10;
+}
+
+#main{
+    position: relative;
+    background-color: #181A27;
+    overflow: hidden;
+    height: auto;
+}
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 15;
+}
+
+#topleft{
+    position: absolute;
+    overflow: hidden;
+    margin-left: -70%;
+    width: 50%;
+    margin-top: -24rem;
+}
+
+#bottomleft{
+    position: absolute;
+    margin-left: -73%;
+    margin-top: 7%;
+    overflow: hidden;
+    width: 50%;
+}
+
+#topright{
+    position: absolute;
+    margin-left: 74%;
+    width: 50%;
+    margin-top: -34rem;
+    overflow: hidden;
+}
+
+#bottomright{
+    position: absolute;
+    margin-left: 71.5%;
+    width: 50%;
+    margin-top: 7%;
+    overflow: hidden;
+}
+
+
+#cultfitcenter{
+    width: 26%;
+    margin-top: 8rem;
+    z-index: 50;
+}
+
+#page1h1div{
+    width: 40%;
+    margin-top: 2rem;
+    line-height: 40px;
+}
+
+#page1h2{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family:
+     Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+}
+
+#bannervdobutton{
+    width: auto;
+    height: auto;
+    padding: 10px 20px 10px 20px;
+    background-color: white;
+    border-radius: 5px;
+    border: 0px;
+    margin-top: 30px;
+    font-family: Inter-Medium,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-weight:900;
+    font-size: 15px;
+    z-index: 25;
+    color: #F06055;
+}
+#bannervdobutton:hover{
+    color: black;
+    cursor: pointer;
+}
+
+#page1downarrow{
+    width: 10%;
+    height: auto;
+    cursor: pointer;
+    z-index: 50;
+}
+
+#vdogradient{
+    filter: opacity(0);
+}
+
+
+
+
+
+
+#page2{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: -2rem;
+    -webkit-box-shadow:0px 0px 500px 500px #181A27;
+   -moz-box-shadow:0px 0px 500px 500px #181A27;
+   box-shadow: 0px 0px 50px 50px #181A27;
+    background-color: #181A27;
+    z-index: 70;
+}
+
+#firstdiv{
+    z-index: 79;
+}
+
+#seconddiv{
+    z-index: 79;
+}
+#thirddiv{
+    z-index: 79;
+}
+
+#cultpasses{
+    width: 70%;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    gap: 40px;
+    z-index: 99;
+}
+
+#cultpasses>div{
+    width: 35%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid #b9babb;
+    border-radius: 10px;
+    background-color: #2F313C;
+}
+
+#firstdiv:hover{
+    z-index: 99;
+    cursor: pointer;
+}
+
+#seconddiv:hover{
+    cursor: pointer;
+    z-index: 99;
+}
+
+#thirddiv:hover{
+    cursor: pointer;
+    z-index: 99;
+}
+
+#cultpassimgdiv{
+    display: flex;
+    margin: 20px 40px 10px 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+#cultpassimg{
+    width: 40%;
+}
+
+#cultpasspara{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#cultpasspara>p{
+    font-weight: 600;
+    color: #9FA1A6;
+    line-height: 25px;
+}
+
+.pass{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#eliteimg{
+    width: 50%;
+}
+
+#proimg{
+    width: 50%;
+}
+
+#selectimg{
+    width: 50%;
+}
+

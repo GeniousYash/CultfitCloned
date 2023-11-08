@@ -1,0 +1,149 @@
+html,body{
+    background-color: #15171C;
+}
+
+#sportsbanner{
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: row;
+}
+
+#sportsbanner>div{
+    width: 50%;
+}
+
+#lefttext{
+    display: flex;
+    flex-direction: column;
+}
+
+#one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: white;
+    margin-left: 10rem; 
+    margin-top: 4rem;
+}
+
+#one>span{
+    color: #36CA95;
+    font-size: 35px;
+    margin-left: 15px;
+    font-weight: 900;
+}
+
+#two{    
+    width: 70%;
+    margin-left: 10rem;
+    margin-top: 3rem;
+    color: white;
+}
+
+#two>h1{
+    font-size: 47px;
+}
+
+#three{
+    margin-top: 2rem;
+    margin-left: 10rem;
+}
+
+#three>ul{
+    color: #D0D1D2;
+    font-size: 25px;
+    margin-left: 7px;
+}
+
+#three>ul>li{
+    margin-top: 15px;
+}
+
+#three>p{
+    color: #D0D1D2;
+    font-size: 25px;
+    margin-top: 25px;
+}
+
+#four{
+    margin-left: 10rem;
+}
+
+#four>button{
+    margin-top: 3rem;
+    padding: 10px 20px 10px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+#four>button:nth-child(1){
+    background-color: rgb(255 255 255 / 10%);
+    font-weight: 900;
+    border: none;
+    color: white;
+    backdrop-filter: blur(50px);
+}
+
+#four>button:nth-child(1):hover{
+    background-color: #444549;
+}
+
+#four>button:nth-child(2){
+    background-color: white;
+    border: none;
+    color:#F06055;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+#four>button:nth-child(2):hover{
+    color:black;
+}
+
+#rightimg{
+    height: 100vh;
+}
+
+#rightimg>img{
+    width: 100%;
+    height: 90vh;
+}
+
+#sportsdiv2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#sportsdiv2>h1:nth-child(1){
+    color: #D0D1D2;
+    font-size: 25px;
+}
+
+#sportsdiv2>h1:nth-child(2){
+    color: white;
+    font-size: 60px;
+}
+
+#sportsbannertwo{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+}
+#sportsbannertwo>img{
+    cursor: pointer;
+}
+
+#sportsbannerthree{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}

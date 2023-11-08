@@ -1,0 +1,202 @@
+#mainContainer {
+    width: 100%;
+    box-sizing: border-box;
+    height: 130px;
+    user-select: none;
+  }
+  
+  #nav {
+    height: 50px;
+    margin-top: 0px;
+    width: 100%;
+    background-color: #393A3B;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    justify-content: space-evenly;
+    display: flex;
+    position: fixed;
+    z-index: 10;
+  
+  }
+  
+  #test{
+    background-color: #1A1A1E;
+    border: none;
+    height: 40px;
+    padding: 0px 20px 0px 20px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+  }
+  #p {
+    margin-left: 50px;
+  }
+  
+  #cards{
+    display: grid;
+    margin-top: 30px;
+    grid-template-rows: repeat(5,1fr);
+    grid-template-columns: repeat(5,1fr);
+    padding: 0px 60px 0px 60px;
+  }
+  
+  
+  #card{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  #card:hover{
+    transform: scale(0.95);
+    transition: 0.8s ease; 
+  }
+  
+  #cardImage{
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+  #priceDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #price{
+    text-decoration: line-through;
+  }
+  
+  #offerPriceDiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #offerPrice{
+    font-weight: 800;
+  }
+  /* ************ */
+  #cardsSenior{
+    display: grid;
+    margin-top: 30px;
+    grid-template-columns: repeat(5,1fr);
+    padding: 0px 60px 0px 60px;
+  }
+  
+  
+  #card2{
+    margin: auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  #card2:hover{
+    transform: scale(0.95);
+    transition: 0.5s ease; 
+  }
+  
+  #cardImage2{
+    width: 100%;
+    border-radius: 5px 5px 5px 5px;
+  }
+  
+  #priceDiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #price2{
+    text-decoration: line-through;
+  }
+  
+  #offerPriceDiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  
+  #offerPrice2{
+    font-weight: 800;
+  }
+  /* ***************** */
+  #p2 {
+    margin-left: 50px;
+    margin-top: 40px;
+  }
+  
+  
+  #bottom {
+    background-color: #171A26;
+    margin-top: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #faq {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+  }
+  
+  #ul {
+    margin-right: 50px;
+  }
+  
+  #ul>li {
+    margin-top: 50px;
+  }
+  
+  #doc {
+    font-size: 80px;
+    color: rgb(86, 86, 86);
+    font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    line-height: 1.2;
+    margin-top: 40px;
+    letter-spacing: -0.6px;
+    vertical-align: bottom;
+    margin-left: 0px;
+  
+  }
+  #doc2 {
+    font-size: 60px;
+    color: rgb(204, 204, 204);
+    font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    line-height: 1.2;
+    letter-spacing: -0.6px;
+    vertical-align: bottom;
+    margin-left: 0px;
+  
+  }
+  #doc3 {
+    font-size: 40px;
+    color: rgb(204, 204, 204);
+    font-family: BrandonTextWeb-Bold, "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    line-height: 1.2;
+    letter-spacing: 3px;
+    vertical-align: bottom;
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+  
+  
+  @media all and (min-width: 500px) and (max-width: 1000px) {
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, 300px);
+  
+    }
+  }
+  
+  @media all and (min-width: 50px) and (max-width: 500px) {
+    .container {
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: repeat(1, 100px);
+  
+    }
+  
+  }
